@@ -11,17 +11,18 @@ const App = () => {
 				<div className="p-5 shadow m-5 rounded mx-auto">
 					<form action="#" className="form">
 						<label htmlFor="title" className="w-50 d-block mx-auto ">
-							<p className="text-primary fw-bold text-uppercase">Enter title</p>
+							<p className="text-primary fw-bold text-uppercase">Enter your Name</p>
 							<input type="text"
 							id="title"
 							className="form-control p-3 w-100" />
 						</label>
 						<label htmlFor="title" className="w-50 d-block mx-auto ">
-							<p className="text-primary fw-bold text-uppercase">Enter title</p>
-							<input type="text"
+							<p className="text-primary fw-bold text-uppercase">Enter your phone number</p>
+							<input type="number"
 							id="title"
 							className="form-control p-3 w-100" />
 						</label>
+						<button type="submit" className="px-5 btn btn-success d-block mx-auto mt-5">Enter</button>
 					</form>
 				</div>
 			</main>
