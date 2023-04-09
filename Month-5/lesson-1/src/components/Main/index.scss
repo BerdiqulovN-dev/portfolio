@@ -1,0 +1,71 @@
+.main {
+    background-color: #EDF7FA;
+    padding: 27px 0;
+    margin-top: 98px;
+
+    &__inner {
+
+
+    }
+
+    &--top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &---cards {
+        margin-top: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &--card {
+            padding: 23px;
+            width: 374px;
+            background-color: #fff;
+            box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+            border-radius: 4px;
+
+            &-title {
+                font-family: 'Heebo';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 38px;
+                color: #21243D;
+            }
+
+            &-elements {
+                margin-top: 17px;
+                margin-bottom: 11px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                &-date {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #21243D;
+                }
+
+                &-name {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #21243D;
+                }
+
+            }
+
+            &-text {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #21243D;
+
+            }
+        }
+    }
+}

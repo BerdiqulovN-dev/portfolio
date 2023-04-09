@@ -1,16 +1,15 @@
-import Header from "./components/Header";
-import Intro from "./components/Intro";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
-
-
+import React from "react";
+import Header from "./components/Header/Header";
+import Intro from "./components/Intro/Intro";
+import Main from "./components/Main/Main";
+export let img= "./assets/Intro-img.png";
+// console.log(img);
 const App = () => {
 	return (
 		<>
 			<Header />
 			<Intro />
 			<Main />
-			<Footer />
 		</>
 	);
 };
