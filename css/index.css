@@ -1,25 +1,54 @@
-.header__inner {
-  margin-top: 27px;
+/*# sourceMappingURL=index.css.map */  padding: 27px 0;
+  margin-top: 98px;
+}
+.main--top {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.header--list {
-  width: 17%;
+.main---cards {
+  margin-top: 46px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
-  list-style-type: none;
 }
-.header--list--item-link {
-  text-decoration: none;
+.main---cards--card {
+  padding: 23px;
+  width: 374px;
+  background-color: #fff;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+}
+.main---cards--card-title {
   font-family: "Heebo";
   font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 29px;
-  text-align: right;
-  color: #000000;
-  background: #f90c0c;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #21243D;
+}
+.main---cards--card-elements {
+  margin-top: 17px;
+  margin-bottom: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main---cards--card-elements-date {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+}
+.main---cards--card-elements-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+}
+.main---cards--card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
 }/*# sourceMappingURL=index.css.map */
